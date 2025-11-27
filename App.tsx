@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { AIAssistant } from "./AIAssistant";
-import html2canvas from "html2canvas";
-import jsPDF from "jspdf";
 import { LoginView } from "./LoginView";
 import logo from "./assets/logo.png";
 import logo1 from "./assets/logo1.png";
