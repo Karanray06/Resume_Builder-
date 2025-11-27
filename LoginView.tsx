@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { ArrowRight, CheckCircle, Shield, Star } from "lucide-react";
-import html2canvas from "html2canvas";
-import jsPDF from "jspdf";
-import logo from "./dist/assets/logo1.png";
-import { transcode } from "buffer";
+import logo from "./assets/logo1.png";
 interface LoginViewProps {
   onLogin: () => void;
 }
